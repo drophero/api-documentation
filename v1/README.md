@@ -9,9 +9,9 @@ Using query parameters to authenticate requests is useful when you want to expre
 
 The following is an example presigned URL. 
 
-<code>
+```json
 https://api.drophero.com/v1/subscribed
 ?DHSAccessKeyId=XXXXXXXXX
 &Expires=1382116367
 &Signature=YzY5NDgwYWE2ZWJhNmRjNjU1MDQxMGViY2Q2ZjBjMjYyMmYwYTk2Mw==
-</code>
+```
