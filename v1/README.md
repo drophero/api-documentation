@@ -73,13 +73,13 @@ You can perform up to 1 request per second period from the same IP address for t
 
 ## API ready for use
 
-| slug                      | Function          |
+| slug                      | Description          |
 | ------------------------- | ----------- |
-| [<code>/v1/subscribed</code>](/sections/subscribed.md)  | [Product subscription management](/sections/subscribed.md)                  |
-| <code>/v1/shipping</code>  | [Shipping options management](/sections/subscribed.md)                   |
-| <code>/v1/category</code>  | [Category synchronization](/sections/subscribed.md)                   |
-| <code>/v1/orders</code>  | [Orders management](/sections/subscribed.md)                   |
-| <code>/v1/notify</code>  | [Notification system](/sections/subscribed.md)                   |
+| [<code>/v1/subscribed</code>](sections/subscribed.md)  | [Product subscription management](sections/subscribed.md)   |
+| [<code>/v1/shipping</code>](sections/shipping.md)  | [Shipping options management](sections/shipping.md)     |
+| [<code>/v1/category</code>](sections/categories.md)| [Category synchronization](sections/categories.md)          |
+| [<code>/v1/orders</code>](sections/orders.md)  | [Orders management](sections/orders.md)                 |
+| [<code>/v1/notify</code>](sections/notify.md)  | [Notification system](sections/notify.md)               |
 
 ## Help us make it better
 
