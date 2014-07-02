@@ -75,11 +75,11 @@ You can perform up to 1 request per second period from the same IP address for t
 
 | slug                      | Description          |
 | ------------------------- | ----------- |
-| [<code>/v1/subscribed</code>](sections/subscribed.md)  | [Product subscription management](sections/subscribed.md)   |
-| [<code>/v1/shipping</code>](sections/shipping.md)  | [Shipping options management](sections/shipping.md)     |
-| [<code>/v1/category</code>](sections/categories.md)| [Category synchronization](sections/categories.md)          |
-| [<code>/v1/orders</code>](sections/orders.md)  | [Orders management](sections/orders.md)                 |
-| [<code>/v1/notify</code>](sections/notify.md)  | [Notification system](sections/notify.md)               |
+| [<code>/v1/subscribed</code>](sections/subscribed.md)  | Product subscription management   |
+| [<code>/v1/shipping</code>](sections/shipping.md)  | Shipping options management     |
+| [<code>/v1/category</code>](sections/categories.md)| Category synchronization          |
+| [<code>/v1/orders</code>](sections/orders.md)  | Orders management               |
+| [<code>/v1/notify</code>](sections/notify.md)  | Notification system              |
 
 ## Help us make it better
 

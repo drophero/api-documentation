@@ -3,7 +3,7 @@ Subscription Management
 
 ## Get subscriptions
 
-- <code>GET /v1/subscriptions</code> will return all current subscriptions and deleted subscriptions related to requester account.
+- <code>GET /v1/subscribed</code> will return all current subscriptions and deleted subscriptions related to requester account.
 
 ```JSON
 {
