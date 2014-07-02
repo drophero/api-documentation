@@ -75,7 +75,7 @@ You can perform up to 1 request per second period from the same IP address for t
 
 | slug                      | Function          |
 | ------------------------- | ----------- |
-| <code>/v1/subscribed</code>  | [Product subscription management](/sections/subscribed.md)                  |
+| [<code>/v1/subscribed</code>](/sections/subscribed.md)  | [Product subscription management](/sections/subscribed.md)                  |
 | <code>/v1/shipping</code>  | [Shipping options management](/sections/subscribed.md)                   |
 | <code>/v1/category</code>  | [Category synchronization](/sections/subscribed.md)                   |
 | <code>/v1/orders</code>  | [Orders management](/sections/subscribed.md)                   |
