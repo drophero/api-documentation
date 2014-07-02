@@ -42,3 +42,17 @@ In order to generate this code you will need you current machine time in univers
 ```
 key = base64_encode(hash_hmac('SHA1', $currentGTMtime.$secretKey, $secretKey))
 ```
+
+## Standard DropHero response codes
+
+| Name | Description          |
+| ------------- | ----------- |
+| 200  | OK                   |
+| 201  | Created              |
+| 304  | Not modified         |
+| 400  | Bad request          |
+| 401  | Unauthorized         |
+| 403  | Forbidden            |
+| 404  | Not found            |
+| 406  | No acceptable        |
+| 500  | Internal error       |
