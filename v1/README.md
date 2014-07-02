@@ -19,17 +19,13 @@ https://api.drophero.com/v1/subscribed
 Presigning reguests
 --------------------
 
-In order to access any funtionality provided by DropHero you must be able to presign any request. This involves 3 basic parameters embedded in the url:
+In order to access any funtionality provided by DropHero you must be able to presign any request. This involves 3 basic parameters embedded in the url: DHSAccessKeyId, Expires and Signature.
 
-- DHSAccessKeyId
-- Expires
-- Signature
-
-######<code>DHSAccessKeyId</code> parm:
+- <code>DHSAccessKeyId</code> parm:
 
 Public DropHero key. Identifies the specific Public Key provided to every registered user.
 
-######<code>Expires</code> parm:
+- <code>Expires</code> parm:
 
 Provides the current time, in seconds from epoch, indicating the time when this request has been signed from the requester. For example, 1382116367. This value is an integer. This value must be valid and express current time in universal GMT. 
 
@@ -37,7 +33,7 @@ This value will be used in the Signature generation process too.
 
 A presigned URL can be valid for a maximum of 600 seconds.
 
-######<code>Signature</code> parm:
+- <code>Signature</code> parm:
 
 Provides the signature to authenticate your request. This signature must match the signature DropHero calculates, otherwise, DropHero denies the request. For example, <code>YzY5NDgwYWE2ZWJhNmRjNjU1MDQxMGViY2Q2ZjBjMjYyMmYwYTk2Mw==</code>
 
