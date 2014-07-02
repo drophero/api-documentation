@@ -45,8 +45,8 @@ key = base64_encode(hash_hmac('SHA1', $currentGTMtime.$secretKey, $secretKey))
 
 ## Standard DropHero response codes
 
-| Name | Description          |
-| ------------- | ----------- |
+| Return Code | Description          |
+| ------------: | ----------- |
 | 200  | OK                   |
 | 201  | Created              |
 | 304  | Not modified         |
