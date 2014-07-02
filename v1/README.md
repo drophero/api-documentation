@@ -25,11 +25,11 @@ In order to access any funtionality provided by DropHero you must be able to pre
 - Expires
 - Signature
 
-Using <code>DHSAccessKeyId</code> parm:
+#####<code>DHSAccessKeyId</code> parm:
 
 Public DropHero key. Identifies the specific Public Key provided to every registered user.
 
-Using <code>Expires</code> parm:
+#####<code>Expires</code> parm:
 
 Provides the current time, in seconds from epoch, indicating the time when this request has been signed from the requester. For example, 1382116367. This value is an integer. This value must be valid and express current time in universal GMT. 
 
@@ -37,7 +37,7 @@ This value will be used in the Signature generation process too.
 
 A presigned URL can be valid for a maximum of 600 seconds.
 
-Using <code>Signature</code> parm:
+#####<code>Signature</code> parm:
 
 Provides the signature to authenticate your request. This signature must match the signature DropHero calculates, otherwise, DropHero denies the request. For example, <code>YzY5NDgwYWE2ZWJhNmRjNjU1MDQxMGViY2Q2ZjBjMjYyMmYwYTk2Mw==</code>
 
