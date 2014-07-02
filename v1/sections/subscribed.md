@@ -5,7 +5,7 @@ Subscription Management
 
 - <code>GET /v1/subscriptions</code> will return all subscriptions related to requester account.
 
-'''JSON
+```JSON
 {
     "0": {
         "iditem": "5554",
@@ -208,4 +208,4 @@ Subscription Management
         "5557"
     ]
 }
-'''
+```
