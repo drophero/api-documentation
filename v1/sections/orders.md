@@ -41,33 +41,33 @@ This interface will allow you to send your app orders and keep these in sync wit
 }
 ```
 
-| field                    | Description  | Control      |
-| ------------------------ | -------------| -------------|
-| idordershop              | Required     | Required     |
-| status                   | Required     | Required     |
-| buyer_name               | Required     | Required     |
-| buyer_address            | Required     | Required     |
-| buyer_postcode           | Required     | Required     |
-| buyer_city               | Required     | Required     |
-| buyer_country            | Required     | Required     |
-| buyer_phone              | Required     |      |
-| buyer_message            | Required     |      |
-| shipping_price           | Required     | Required     |
-| currency                 | Required     | Required     |
-| order_total              | Required     | Required     |
-| selled_items             | Required     | Required     |
+| field                    | Description  |  Included in bill printing   |  Control      |
+| ------------------------ | -------------| -------------| -------------|
+| idordershop              | Your own id for this order     | No | Required     |
+| status                   | Regular status (see table above)     | No | Required     |
+| buyer_name               | Buyer name for this order     | Yes | Required     |
+| buyer_address            | Buyer address for this order (will be used as shipping address)      | Yes | Required     |
+| buyer_postcode           | Buyer postcode (will be used as shipping postcode)     | Yes | Required     |
+| buyer_city               | Buyer city (will be used as shipping postcode)     | Yes | Required     |
+| buyer_country            | Buyer country (will be used as shipping postcode)     | Yes | Required     |
+| buyer_phone              | Buyer phone (will be used as shipping contact phone)     | Yes |      |
+| buyer_message            | Buyer related messages for preparation and shipping purposes     | No |      |
+| shipping_price           | The shipping price you're charging to this client     | Yes | Required     |
+| currency                 | EUR or DLR     | Yes | Required     |
+| order_total              | The total order amount you're charging to this client  | Yes | Required     |
 
-| selled_items                    | Description  | Control      |
-| ------------------------ | -------------| -------------|
-| iditem                   | Required     | Required     |
-| qty                      | Required     | Required     |
-| row_total                | Required     | Required     |
-| row_total_incl_tax       | Required     | Required     |
-| item_selling_price       | Required     | Required     |
-| item_selling_discount    | Required     | Required     |
-| item_selling_tax         | Required     | Required     |
-| idshippingmode           | Required     | Required     |
-| item_tax_amount          | Required     | Required     |
+| selled_items                    | Description  | Included in bill printing   |  Control      |
+| ------------------------ | -------------| -------------| -------------|
+| iditem                   | Required     | No | Required     |
+| qty                      | Required     | Yes | Required     |
+| row_total                | Required     | Yes | Required     |
+| row_total_incl_tax       | Required     | Yes | Required     |
+| item_selling_price       | Required     | Yes | Required     |
+| item_selling_discount    | Required     | Yes | Required     |
+| item_selling_tax         | Required     | Yes | Required     |
+| item_tax_amount          | Required     | Yes | Required     |
+| idshippingmode           | Required     | No | Required     |
+
 
 ## Deleting Categories
 
