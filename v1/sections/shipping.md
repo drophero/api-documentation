@@ -7,19 +7,19 @@ Shipping Management
 
 ```JSON
 [
-{
-idshippingmode: "1",
-shipping_area_iso: "ES",
-shipping_name: "MRW 24 horas",
-shipping_description: "Envío al día siguiente",
-shipping_transit_hours: "24"
-},
-{
-idshippingmode: "2",
-shipping_area_iso: "ES",
-shipping_name: "Correos",
-shipping_description: "Envío regular 1 semana",
-shipping_transit_hours: "168"
-}
+	{
+		"idshippingmode": "1",
+		"shipping_area_iso": "ES",
+		"shipping_name": "MRW 24 horas",
+		"shipping_description": "Envío al día siguiente",
+		"shipping_transit_hours": "24"
+	},
+	{
+		"idshippingmode": "2",
+		"shipping_area_iso": "ES",
+		"shipping_name": "Correos",
+		"shipping_description": "Envío regular 1 semana",
+		"shipping_transit_hours": "168"
+	}
 ]
 ```
