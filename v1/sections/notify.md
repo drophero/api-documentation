@@ -22,7 +22,7 @@ When DropHero needs initiate a communitacion with a certain user plugin (for exa
 There's 2 types of callbacks:
 
 | Callback type     | Action              | Description              |
-| -------: | ------------------------ |
+| -------- | ------------------------ | ------------------------ |
 | product  | Triggers a <code>GET /v1/subscribed</code> call  | Allow DropHero to notify changes relted to products to an specific user plugin       |
 | orders   | Triggers a <code>GET /v1/orders</code> call  | Allow DropHero to notify changes relted to orders to an specific user plugin      |
 
