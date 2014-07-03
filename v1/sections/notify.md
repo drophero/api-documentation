@@ -15,7 +15,7 @@ Message types:
 
 DropHero needs a way to keep in touch with their connected apps. By using system messages, this apps can notify their installation and their callback url's in order to allow DropHero start a reverse communication.
 
-### DropHero reverse communications using
+### DropHero reverse communications using Callback
 
 When DropHero needs initiate a communitacion with a certain user plugin (for example, there's stock changes in some user subscribed product) DropHero will use that provided callbacks. The flow is simple, DropHero make an http request on a certain callback, and the plugin triggers a call in reverse). This allows DropHero to make "push" calls instead of recurly ones. 
 
@@ -26,9 +26,13 @@ There's 2 types of callbacks:
 | product  | Triggers a <code>GET /v1/subscribed</code> call  | Allow DropHero to notify changes relted to products to an specific user plugin       |
 | orders   | Triggers a <code>GET /v1/orders</code> call  | Allow DropHero to notify changes relted to orders to an specific user plugin      |
 
+**This callback url's must be reachable from *.drophero.com systems.**
+
+
 ##Notify requests
 
 - <code>POST /v1/notify</code> This JSON data must be serialized and attached to the request into a new variable called <code>data</code>.
+
 
 ```JSON
 {
@@ -48,8 +52,8 @@ There's 2 types of callbacks:
         "msgtype": "system",
         "message": {
             "callbacks_url": {
-    			"orderstatus": "sdfgsdfsadf.com",
-                "products": "lolailo.com/dropwidget/index/lolailo"
+    			"orderstatus": "plugindomain.com/userdesired/orders/url",
+                "products": "plugindomain.com/userdesired/products/url"
             }
         }
     }
