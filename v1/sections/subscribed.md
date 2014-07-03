@@ -98,7 +98,7 @@ Subscription Management
 
 ## Get subscriptions from timestamp
 
-- <code>GET /v1/subscribed/from/**int**</code> will return all current subscriptions and deleted subscriptions related to requester account from a point on time tu current (time to epoch/GMT).
+- <code>GET /v1/subscribed/from/**int**</code> will return all current subscriptions and deleted subscriptions related to requester account from a point on time to current (time to epoch/GMT).
 
 Example:
 
