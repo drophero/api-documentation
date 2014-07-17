@@ -50,6 +50,7 @@ There's 2 types of callbacks:
        },
     "4": {
         "msgtype": "system",
+        "storetype": "magento|prestashop|...",
         "message": {
             "callbacks_url": {
     			"orderstatus": "plugindomain.com/userdesired/orders/url",
