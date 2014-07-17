@@ -46,10 +46,6 @@ There's 2 types of callbacks:
     },
     "3": {
         "msgtype": "system",
-        "message": "plugin installed"
-       },
-    "4": {
-        "msgtype": "system",
         "message": {
             "storetype": "magento|prestashop|...",
             "callbacks_url": {
