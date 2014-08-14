@@ -45,7 +45,7 @@ Here you send your internal <code>id</code> for every catagory you have, as well
 
 ## Deleting Categories
 
-- <code>POST /v1/category/del</code> will return all current subscriptions and deleted subscriptions related to requester account.
+- <code>POST /v1/category/del</code> 
 
 This JSON data must be serialized and attached to the request into a new variable called <code>data</code>.
 
@@ -64,3 +64,38 @@ This JSON data must be serialized and attached to the request into a new variabl
 | field                    | Description  |
 | ------------------------ | -------------|
 | id                       | Required     |
+
+
+## Getting all my categories
+
+- <code>GET /v1/category</code> will return all current categories related to the requester store account.
+
+```JSON
+[
+	{
+		id: "0",
+		name: "Default Category",
+		parent_id: "0"
+	},
+	{
+		id: "2",
+		name: "",
+		parent_id: "1"
+	},
+	{
+		id: "3",
+		name: "Perfumes 1.5",
+		parent_id: "2"
+	},
+	{
+		id: "4",
+		name: "Subcategoria 1",
+		parent_id: "3"
+	},
+	{
+		id: "5",
+		name: "Cosmetica 1",
+		parent_id: "2"
+	}
+]
+```
