@@ -21,6 +21,13 @@ This interface will allow you to send your app orders and keep these in sync wit
 		"buyer_country":"ES",
 		"buyer_phone":"93888555222",
 		"buyer_message":"",
+		"buyer_vatin":"",
+		"buyer_shipping_name":"",
+		"buyer_shipping_address":"",
+		"buyer_shipping_postcode":"",
+		"buyer_shipping_city":"",
+		"buyer_shipping_country":"",
+		"buyer_shipping_phone":"",
 		"shipping_price":"5.0000",
 		"currency":"EUR",
 		"order_total":"25.7800",
@@ -47,11 +54,18 @@ This interface will allow you to send your app orders and keep these in sync wit
 | status                   | Regular status (see table below)     | No | Required     |
 | buyer_name               | Buyer name for this order     | Yes | Required     |
 | buyer_address            | Buyer address for this order (will be used as shipping address)      | Yes | Required     |
-| buyer_postcode           | Buyer postcode (will be used as shipping postcode)     | Yes | Required     |
-| buyer_city               | Buyer city (will be used as shipping postcode)     | Yes | Required     |
-| buyer_country            | Buyer country (will be used as shipping postcode)     | Yes | Required     |
-| buyer_phone              | Buyer phone (will be used as shipping contact phone)     | Yes |      |
+| buyer_postcode           | Buyer postcode      | Yes | Required     |
+| buyer_city               | Buyer city      | Yes | Required     |
+| buyer_country            | Buyer country     | Yes | Required     |
+| buyer_phone              | Buyer phone      | Yes |      |
 | buyer_message            | Buyer related messages for preparation and shipping purposes     | No |      |
+| buyer_vatin            | Buyer tax id (card id), spanish nif...     | Yes |   Required   |
+| buyer_shipping_name               | Buyer shipping name for this order     | Yes | Required     |
+| buyer_shipping_address            | Buyer shipping address for this order      | Yes | Required     |
+| buyer_shipping_postcode           | Buyer shipping postcode     | Yes | Required     |
+| buyer_shipping_city               | Buyer shipping city     | Yes | Required     |
+| buyer_shipping_country            | Buyer shipping country     | Yes | Required     |
+| buyer_shipping_phone              | Buyer phone      | Yes |      |
 | shipping_price           | The shipping price you're charging to this client     | Yes | Required     |
 | currency                 | ISO 4217 currency name (EUR, USD, GBP...)    | Yes | Required     |
 | order_total              | The total order amount you're charging to this client  | Yes | Required     |
