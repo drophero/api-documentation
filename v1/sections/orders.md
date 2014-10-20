@@ -53,7 +53,7 @@ This interface will allow you to send your app orders and keep these in sync wit
 | idordershop              | Your own id for this order     | No | Required     |
 | status                   | Regular status (see table below)     | No | Required     |
 | buyer_name               | Buyer name for this order     | Yes | Required     |
-| buyer_address            | Buyer address for this order (will be used as shipping address)      | Yes | Required     |
+| buyer_address            | Buyer address for this order     | Yes | Required     |
 | buyer_postcode           | Buyer postcode      | Yes | Required     |
 | buyer_city               | Buyer city      | Yes | Required     |
 | buyer_country            | Buyer country     | Yes | Required     |
